@@ -8,7 +8,7 @@ class Qlever < Formula
   sha256 "cd88971f01188cc5ef954687ea4bc6838f52385046ec1de52d5051eb96311064"
 
   head do
-    url "https://github.com/ad-freiburg/qlever.git", branch: "main"
+    url "https://github.com/ad-freiburg/qlever.git", branch: "master"
     depends_on "cmake" => :build
     depends_on "ninja" => :build
     depends_on "pkg-config" => :build
